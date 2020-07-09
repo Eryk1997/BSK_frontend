@@ -6,6 +6,7 @@ import Home from "./Home";
 import Navbar from "./navbar/Navbar";
 import All from "./view/AllQuestion/All";
 import DeleteQuestion from './view/DeleteQuestion/DeleteQuestion'
+import Quiz from './view/Quiz/Quiz'
 
 export default class App extends Component {
   render() {
@@ -16,6 +17,7 @@ export default class App extends Component {
           <Route path="/addquestion" component={addQuestion} />
           <Route path="/all" component={All} />
           <Route path="/delete" component={DeleteQuestion} />
+          <Route path="/quiz" component={Quiz} />
           <Route path="/" component={Home} />
         </Switch>
       </div>

@@ -41,6 +41,11 @@ export default class Navbar extends Component {
                   Delete Question
                 </a>
               </li>
+              <li className="nav-item">
+                <a class="nav-link" href="quiz">
+                  Quiz
+                </a>
+              </li>
             </ul>
           </div>
         </nav>
