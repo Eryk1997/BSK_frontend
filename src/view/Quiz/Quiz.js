@@ -45,7 +45,7 @@ export default class Quiz extends Component {
 
   render() {
     return (
-      <div>
+      <div className="bg-dark text-white" style={{height:"100vh"}}>
         <p> Pytanie</p>
         {this.state.elements.slice(0, 1).map((el) => el.text)}
         <p>Odpowiedzi</p>

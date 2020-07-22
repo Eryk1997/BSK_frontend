@@ -30,7 +30,7 @@ export default class addQuestion extends Component {
     if (testFields(this.state.question, this.state.answer)) {
       axios
         .post("http://localhost:3000/questions/", data)
-        .then((res) => console.log(res))
+        .then((res) => {console.log(res)})
         .catch((err) => console.log(err));
       alert("wykonano");
     } else alert("nie wykonano"); 

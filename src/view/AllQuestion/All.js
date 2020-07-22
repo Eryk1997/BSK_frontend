@@ -32,6 +32,6 @@ export default class All extends Component {
   }
 
   render() {
-    return <div>{this.state.elements}</div>;
+    return <div className="bg-dark">{this.state.elements}</div>;
   }
 }
